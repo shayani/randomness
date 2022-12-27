@@ -4,8 +4,8 @@ test_size = 1_000_000
 zeros = 0
 ones = 0
 
-for i in range(0,test_size):
-    number = random.randint(0,1)
+for i in range(0, test_size):
+    number = random.randint(0, 1)
     if number == 0:
         zeros +=1
     else:
